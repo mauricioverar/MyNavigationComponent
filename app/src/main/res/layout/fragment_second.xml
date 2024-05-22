@@ -6,4 +6,18 @@
     android:background="@color/blue"
     tools:context=".SecondFragment">
 
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second_fragment"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
 </FrameLayout>
